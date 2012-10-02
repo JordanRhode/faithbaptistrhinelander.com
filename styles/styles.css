@@ -1,0 +1,331 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+        height: 99%;
+    }
+
+body {
+	background-image:url(http://faithbaptistrhinelander.com/images/diagonal-noise.png);
+		background-color:#B2B2B2;
+	font-family: 'PT Sans', sans-serif;
+	color:#333333;
+	font-size:14px;
+    min-height: 100%;
+    position: relative;
+}
+#header, #container, #belief-container {
+	margin:auto;
+	width:940px;
+}
+#header {
+	clear:both;
+	height:150px;
+
+	background-image:url(../images/script.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+#faithLogo {
+	height:100px;
+	width:200px;
+	padding: 5px 0 0 20px;
+        border:none;
+}
+
+/*--------------------------------Page Navigation------------------------------------*/
+#page-tabs {
+	margin:-26px auto 0 auto;
+	width:950px;
+	height:26px;
+	clear:both;
+        left: -20px;
+        position: relative;
+}
+#page-tabs ul {
+list-style: none;
+margin:auto;
+}
+#page-tabs li {
+float: left;
+font-size: 14px;
+display: inline;
+height: 27px;
+line-height: 27px;
+margin: 0;
+}
+#page-tabs li:first-child div:first-child {
+background: url(../images/navigation_edges_newest.png) 0 -27px no-repeat;
+}
+#page-tabs li:first-child div:first-child, #page-tabs .selected:first-child div:first-child {
+width: 9px;
+}
+#page-tabs .last .last {
+background: url(../images/navigation_edges_newest.png) 0 -54px no-repeat;
+width: 21px;
+}
+#page-tabs .selected:first-child div:first-child {
+background: url(../images/navigation_edges_newest.png) 0 -80px no-repeat;
+}
+#page-tabs .selected + li div {
+background: url(../images/navigation_edges_newest.png) 0 -297px no-repeat;
+}
+#page-tabs .selected div {
+background: url(../images/navigation_edges_newest.png) 0 -324px no-repeat;
+}
+#page-tabs .selected.last .last {
+background: url(../images/navigation_edges_newest.png) 0 -108px no-repeat;
+}
+
+#page-tabs div {
+background: url(../images/navigation_edges_newest.png) 0 -135px no-repeat;
+float: left;
+height: 27px;
+width: 25px;
+}
+#page-tabs a {
+background: url(../images/navigation_edges_newest.png) 0 0 repeat-x;
+color: #555555;
+
+float: left;
+padding: 0 8px;
+text-decoration:none;
+}
+#page-tabs a:hover {
+	color:#000000;
+}
+#page-tabs .selected a {
+background: url(../images/navigation_edges_newest.png) 0 -270px repeat-x;
+}
+
+/*--------------------------------Main Content------------------------------------*/
+#container {
+	background-color:#CCC;
+	border-top: 1px solid #999;
+	margin:auto;
+	display:block;
+
+}
+
+/*--------------------------------Homepage Sidebar------------------------------------*/
+#sidebar{
+	
+	font-size:16px;
+	min-height:400px;
+	float:right;
+	width:300px;
+	text-align:center;
+	
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+#sidebar h3 {
+	padding-right:25px;
+}
+#sidebar table {
+	width:100%;
+	padding-right:25px;
+}
+#sidebar table tr td {
+	text-align:left;
+        min-width:75px;
+        vertical-align:top;
+}
+.bold {
+        font-weight:bold;
+        font-size:16px;
+}
+
+/*--------------------------------Homepage Intro/Slideshow------------------------------------*/
+#homeText{
+	width:615px;
+	border-right:1px solid #999;
+	}
+#homeText p {
+	padding:25px;
+	padding-bottom:5px;
+}
+#slideshow {
+	width:615px;
+	height:540px;
+	
+	margin:auto;
+}
+
+#galleryLink  {
+        position: absolute;
+        padding-top:260px;
+}
+
+#leftContainer {
+	width:615px;
+	padding-bottom:5px;
+
+}
+#borderDiv {
+	border-top:1px solid #999;
+	width:575px;
+	margin:auto;
+}
+#slideshow img{
+	margin-top:-15px;
+	padding:35px 30px 0 35px;
+	border-right:1px solid #999999;
+}
+.invImage {
+	display:none;
+}
+
+/*--------------------------------About Page Content------------------------------------*/
+#aboutText {
+	padding:0 25px 100px 25px;
+	width:auto;
+	border-right:1px solid #999;
+}
+#aboutText p {
+	padding:25px 0;
+}
+
+/*--------------------------------Distinctives Content------------------------------------*/
+#distinctivesText {
+	padding:0 25px 100px 25px;
+	width:564px;
+	border-right:1px solid #999;
+}
+
+/*--------------------------------beliefs Content------------------------------------*/
+#belief-row {
+	width:650px;
+}
+#belief-row p {
+	padding:25px;
+}
+#belief-row h3, #belief-row h1 {
+	padding-left:15px;
+}
+#belief-container {
+	height:4500px;
+	background-color:#CCC;
+	border-top: 1px solid #999;
+	margin:auto;
+	display:block;
+}
+#belief-container .float {
+	float:left;
+	
+}
+#belief-nav {
+	float:left;
+	width:200px;
+	display:inline;
+	font-size:15px;
+	padding:10px 0 0 10px;
+	margin:25px 0 0 30px;
+	border-left: 1px solid #666;
+	border-right:1px solid #666;
+}
+#belief-nav ul {
+	list-style:none;
+	display:inline;
+}
+#belief-nav ul li {
+	width:185px;
+	padding:2px 0 2px 5px;
+}
+#belief-nav li.link-active {
+	background-color:#C0C0C0;
+}
+
+.sticky #belief-nav {
+	position:fixed;
+	top:0;
+}
+/*--------------------------------Find Us Page------------------------------------*/
+#findUsText {
+	width:265px;
+	float:left;
+	padding:0 0 0 25px;
+}
+#map {
+	float:right;
+	padding-top:25px;
+	width:640px;
+}
+.findUsContainer {
+	height:650px;
+}
+/*--------------------------------Resource Page------------------------------------*/
+.resourceDiv {
+	width:275px;
+	height:150px;
+	float:left;
+	display:inline;
+	padding:35px 0 0 25px;
+}
+.resourceDiv a {
+	font-size:24px;
+}
+.resourcesContainer {
+	height:1050px;
+}
+.resourcesContainer h1 {
+	padding:0 0 0 25px;
+	margin-bottom:-25px;
+}
+#godsBridge {
+        padding:0 0 0 25px;
+        top:200px;
+        position:relative;
+        width:650px;
+}
+#godsBridge p {
+        font-size:24px;
+        color:#408080;
+}
+/*--------------------------------Contact Us Page------------------------------------*/
+#contactUsText {
+	padding:0 0 25px 25px;
+        height:600px;
+}
+#crossImage {
+	margin-top:-95px;
+}
+.tabbed {
+	padding:25px 0 0 25px;
+}
+/*--------------------------------404 Page------------------------------------*/
+#errorText {
+	text-align:center;
+	padding:11px;
+}
+#errorText h1 {
+	font-size:36px;
+	margin-bottom:-15px;
+}
+/*--------------------------------Footer------------------------------------*/
+#footer {
+	width:940px;
+	margin:auto;
+	padding-left:30px;
+	clear:both;
+}
+a {
+	text-decoration:none;
+	color:#408080;
+}
+#footerContainer {
+	zoom:1;
+	min-width:960px;
+	width:100%;
+	color:#666666;
+	background-color:#3B3B3B;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.6, rgb(27,27,27)), color-stop(1, rgb(60,60,60)));
+	background-image: -moz-linear-gradient( center bottom, rgb(27,27,27) 60%, rgb(60,60,60)100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#3c3c3c', endColorstr='#1b1b1b'); /* IE6 & IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#3c3c3c', endColorstr='#1b1b1b')"; /* IE8 */
+	border-top:1px solid #1b1b1b;
+	padding:0 13px 0 3px;
+	margin:0 0 0 -8px;
+	bottom:-2px;
+	position:absolute;
+}
+@-moz-document url-prefix() {#footerContainer { margin-bottom:-8px;} } 
