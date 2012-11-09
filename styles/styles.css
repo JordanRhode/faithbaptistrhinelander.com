@@ -33,13 +33,14 @@ body {
 }
 
 /*--------------------------------Page Navigation------------------------------------*/
+
 #page-tabs {
 	margin:-26px auto 0 auto;
 	width:950px;
 	height:26px;
 	clear:both;
-        left: -20px;
-        position: relative;
+    left: -20px;
+    position: relative;
 }
 #page-tabs ul {
 list-style: none;
@@ -96,6 +97,37 @@ text-decoration:none;
 #page-tabs .selected a {
 background: url(../images/navigation_edges_newest.png) 0 -270px repeat-x;
 }
+
+/*-------------------------------Navigation Dropdown------------------------------*/
+#page-tabs ul li ul {
+	list-style: none;
+	position: absolute;
+	left: -9999px;
+	padding-top: 26px;
+	width: 80px;
+	display: block;
+}
+
+#page-tabs ul li ul li a, #page-tabs ul li.selected ul li a {
+	background:#cccccc;
+	border: 1px solid #999999;
+	white-space: nowrap;
+	width: 75px;
+	text-align: center;
+}
+
+#page-tabs ul li:hover ul {
+	left: 70px;
+}
+
+#page-tabs ul li:hover a {
+	text-decoration: none;
+}
+
+#page-tabs ul li ul li a:hover {
+	color: #000000;
+}
+
 
 /*--------------------------------Main Content------------------------------------*/
 #container {
