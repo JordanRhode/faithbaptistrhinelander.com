@@ -32,6 +32,17 @@ body {
         border:none;
 }
 
+#juicebox-container
+{
+	padding: 15px 0 0 0;
+}
+
+.juiceboxContainer
+{
+	height:650px;
+	padding-bottom: 200px;
+}
+
 /*--------------------------------Page Navigation------------------------------------*/
 
 #page-tabs {
@@ -172,6 +183,10 @@ background: url(../images/navigation_edges_newest.png) 0 -270px repeat-x;
 	width:615px;
 	border-right:1px solid #999;
 	}
+#homeText h3
+{
+	padding-left: 25px;
+}
 #homeText p {
 	padding:25px;
 	padding-bottom:5px;
